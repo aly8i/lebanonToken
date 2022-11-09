@@ -180,7 +180,7 @@ const AppBoard = () => {
                                                 Adobe Stock
                                                 </h3>
                                                 <div className={styles.contentText}>Grab yourself 10 free images from Adobe Stock in a 30-day free trial plan and find perfect image, that will help you with your new project.</div>
-                                                    <button className={`${styles.contentButton}${styles.button}`}>Start free trial</button>
+                                                    <button className={`${styles.contentButton} ${styles.button}`}>Start free trial</button>
                                                 </div>
                                                 <img className={`${styles.contentWrapperImg} ${styles.img}`} src="https://assets.codepen.io/3364143/glass.png" alt=""/>
                                             </div>
