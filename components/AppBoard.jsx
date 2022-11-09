@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../styles/AppBoard.module.css"
+import styles from "../styles/Board.module.css"
 const AppBoard = () => {
   return (
     <>
