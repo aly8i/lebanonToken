@@ -10,7 +10,6 @@ export default function Home() {
   return (
     <div className={styles.container}>
     <>
-    
       <Head>
         <title>Lebanon Token</title>
         <meta name="description" content="Lebanese Digital Wallet" />
