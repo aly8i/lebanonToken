@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from "../styles/Board.module.css"
+
 const AppBoard = () => {
   return (
     <>
         <div className={styles.videoBg}>
             <video className={styles.video} width="320" height="240" autoPlay={true} loop={true} muted={true}>
-                <source src="https://firebasestorage.googleapis.com/v0/b/hfc-resto.appspot.com/o/Background%20smoke.mp4?alt=media&token=e12390ae-4830-4e45-a6ec-c6871976a723" type="video/mp4"/>
+                <source src="/Backgroundsmoke.mp4" type="video/mp4"/>
             </video>
         </div>
         <div className={styles.darkLight}>
