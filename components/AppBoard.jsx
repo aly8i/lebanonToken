@@ -5,7 +5,7 @@ const AppBoard = () => {
     <>
         <div className={styles.videoBg}>
             <video className={styles.video} width="320" height="240" autoPlay={true} loop={true} muted={true}>
-                <source src="https://firebasestorage.googleapis.com/v0/b/hfc-resto.appspot.com/o/Smoke_Dark_05_Videvo_preview.mp4?alt=media&token=95e1e036-7107-4c00-a776-d90870d0ef88" type="video/mp4"/>
+                <source src="https://firebasestorage.googleapis.com/v0/b/hfc-resto.appspot.com/o/Background%20smoke.mp4?alt=media&token=e12390ae-4830-4e45-a6ec-c6871976a723" type="video/mp4"/>
             </video>
         </div>
         <div className={styles.darkLight}>
