@@ -83,7 +83,10 @@
   .contentButton:not(.open):hover {
     background: #1e59f1;
   } 
-
+  .contentSectionTitle {
+    color: var(--content-title-color);
+    margin-bottom: 14px;
+  }
   @media screen and (max-width: 1110px) {
     .appVard {
       width: calc(50% - 20px);
