@@ -2,11 +2,13 @@ import React from 'react'
 import styles from "../styles/Background.module.css"
 const Background = () => {
   return (
-    <div className={styles.container}>
-        <div className={styles.stars}/>
-        <div className={styles.stars2}/>
-        <div className={styles.stars3}/>
-    </div>
+    <>
+        <div className={styles.videoBg}>
+            <video className={styles.video} width="320" height="240" autoPlay={true} loop={true} muted={true}>
+                <source src="/Backgroundsmoke.mp4" type="video/mp4"/>
+            </video>
+        </div>
+    </>
   )
 }
 
